@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    background: black;
+    color: white;
+}
+
+.title {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.calendar {
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.calendar td, .calendar th {
+    width: 1.5rem;
+    height: 100%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.today {
+    text-decoration: underline;
+}
+
+.past {
+    opacity: 50%;
+}
